@@ -1,0 +1,12 @@
+spring:
+  profiles.active: dev
+---
+spring:
+  profiles: dev
+server:
+  port: 8091
+  address: localhost
+swagger:
+  pathScanRegex: /api.*
+  enable: true
+MaxLength: field maxLength
